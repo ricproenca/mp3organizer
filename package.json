@@ -1,0 +1,29 @@
+{
+  "name": "mp3organizer",
+  "version": "0.0.1",
+  "description": "Organize MP3 files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "babel"
+  ],
+  "author": "Ricardo Proenca",
+  "homepage": "https://github.com/ricproenca",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.17.0"
+  }
+}
